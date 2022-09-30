@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Digitech</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        
+        <!-- Bootstrap CSS & JS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/8eac9ed8d7.js" crossorigin="anonymous"></script>
+        
+        <script src="js/jquery.min.js"></script>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="stylesheet.css">
+        
+        <!-- JS -->
+        <script src="script.js"></script>
+    </head>
+    <body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+      <div class="header">
+          <img class="navbar-brand" src="logo.png">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown dropdown-mega position-static">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Services</a>
+            <div class="dropdown-menu">
+              <div class="mega-content px-4">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 py-4 hpe-menu">
+                      <div class="hpe-menu-title">SERVICES</div>
+                      <ul class="projects">
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 py-4 hpe-menu">
+                      <div class="hpe-menu-title">SERVICES</div>
+                      <ul class="projects">
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 py-4 hpe-menu hpe-menu-border">
+                        <div class="hpe-menu-title">SERVICES</div>
+                        <div class="main-menu-item radar-menu-item">
+                            <div class="main-menu-item__image-wrapper">
+                                <a href="#" title="DevSecOps" class="main-menu-item__link">
+                                <img src="https://radar.cncf.io/2021-09-devsecops-raw.svg" alt="DevSecOps" class="main-menu-item__image" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="main-menu-item__text-wrapper">
+                                <a class="author-category">Tech Radar</a>
+                                <span class="main-menu-item__title">
+                                    <a href="#">DevSecOps</a>
+                                </span>
+                                <span class="main-menu-item__date">September 2021</span>
+                            </div>
+                        </div>
+                        <div class="main-menu-item radar-menu-item">
+                            <div class="main-menu-item__image-wrapper">
+                                <a href="#" title="DevSecOps" class="main-menu-item__link">
+                                <img src="https://radar.cncf.io/2021-09-devsecops-raw.svg" alt="DevSecOps" class="main-menu-item__image" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="main-menu-item__text-wrapper">
+                                <a class="author-category">Tech Radar</a>
+                                <span class="main-menu-item__title">
+                                    <a href="#">DevSecOps</a>
+                                </span>
+                                <span class="main-menu-item__date">September 2021</span>
+                            </div>
+                        </div>
+                        <div class="main-menu-item radar-menu-item">
+                            <div class="main-menu-item__image-wrapper">
+                                <a href="#" title="DevSecOps" class="main-menu-item__link">
+                                <img src="https://radar.cncf.io/2021-09-devsecops-raw.svg" alt="DevSecOps" class="main-menu-item__image" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="main-menu-item__text-wrapper">
+                                <a class="author-category">Tech Radar</a>
+                                <span class="main-menu-item__title">
+                                    <a href="#">DevSecOps</a>
+                                </span>
+                                <span class="main-menu-item__date">September 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+          </li>
+          <li class="nav-item dropdown dropdown-mega position-static">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-auto-close="outside">Portfolio</a>
+            <div class="dropdown-menu shadow">
+              <div class="mega-content px-4">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 py-4 hpe-menu">
+                      <div class="hpe-menu-title">PORTFOLIO</div>
+                      <ul class="projects">
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 py-4 hpe-menu">
+                      <div class="hpe-menu-title">PORTFOLIO</div>
+                      <ul class="projects">
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                        <li><a href="#">
+                      Graduated
+                      <span class="hpe-menu-description">Projects considered stable, widely adopted, and production ready, attracting thousands of contributors</span>
+                          </a></li>
+                      </ul>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 py-4 hpe-menu hpe-menu-border">
+                        <div class="hpe-menu-title">PORTFOLIO</div>
+                        <div class="main-menu-item radar-menu-item">
+                            <div class="main-menu-item__image-wrapper">
+                                <a href="#" title="DevSecOps" class="main-menu-item__link">
+                                <img src="https://radar.cncf.io/2021-09-devsecops-raw.svg" alt="DevSecOps" class="main-menu-item__image" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="main-menu-item__text-wrapper">
+                                <a class="author-category">Tech Radar</a>
+                                <span class="main-menu-item__title">
+                                    <a href="#">DevSecOps</a>
+                                </span>
+                                <span class="main-menu-item__date">September 2021</span>
+                            </div>
+                        </div>
+                        <div class="main-menu-item radar-menu-item">
+                            <div class="main-menu-item__image-wrapper">
+                                <a href="#" title="DevSecOps" class="main-menu-item__link">
+                                <img src="https://radar.cncf.io/2021-09-devsecops-raw.svg" alt="DevSecOps" class="main-menu-item__image" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="main-menu-item__text-wrapper">
+                                <a class="author-category">Tech Radar</a>
+                                <span class="main-menu-item__title">
+                                    <a href="#">DevSecOps</a>
+                                </span>
+                                <span class="main-menu-item__date">September 2021</span>
+                            </div>
+                        </div>
+                        <div class="main-menu-item radar-menu-item">
+                            <div class="main-menu-item__image-wrapper">
+                                <a href="#" title="DevSecOps" class="main-menu-item__link">
+                                <img src="https://radar.cncf.io/2021-09-devsecops-raw.svg" alt="DevSecOps" class="main-menu-item__image" loading="lazy">
+                                </a>
+                            </div>
+                            <div class="main-menu-item__text-wrapper">
+                                <a class="author-category">Tech Radar</a>
+                                <span class="main-menu-item__title">
+                                    <a href="#">DevSecOps</a>
+                                </span>
+                                <span class="main-menu-item__date">September 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+              </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Leadership</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Our Culture</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+          </li>
+      </ul>
+      <div class="navigationBar">
+          <span style="font-size:30px;cursor:pointer;color:#ffffff;line-height: 20px;" onclick="openNav()">&#9776;</span>
+      </div>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+    </div>
+  </div>
+      </nav>
+        </header>
+        <div class="container-fluid mt-4">
+          <div class="row">
+            <div class="col-md-4">
+              <img clas="img-fluid" src="image.jpg" width="100%">
+            </div>
+            <div class="col-md-8">
+              <h6 class="portfolio-heading">Portfolio</h6>
+              <h2>Our Portfolio</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a class="portfolio-link" href="#">Read More <i class="fa-solid fa-arrow-right hpe-arrow"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container-fluid mt-4">
+          <div class="row">
+            <div class="col-md-12 mt-4 mb-4">
+                <h3 class="text-center">Technology We Support</h3>
+            </div>
+              <div class="col-md-4">
+                  <div class="tech-support-box">
+                      <div class="tech-content">
+                          <img class="image-fluid" src="image.jpg" width="80px">
+                          <div class="image-heading">
+                              <h5>Technology</h5>
+                              <span class="subHeading">Set 1</span>
+                          </div>
+                      </div>
+                      <div class="tech-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid...
+                      </div>
+                      <a class="tech-link" href="#">Read More <i class="fa-solid fa-arrow-right hpe-arrow"></i></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="tech-support-box">
+                      <div class="tech-content">
+                          <img class="image-fluid" src="image.jpg" width="80px">
+                          <div class="image-heading">
+                              <h5>Technology</h5>
+                              <span class="subHeading">Set 2</span>
+                          </div>
+                      </div>
+                      <div class="tech-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid...
+                      </div>
+                      <a class="tech-link" href="#">Read More <i class="fa-solid fa-arrow-right hpe-arrow"></i></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="tech-support-box">
+                      <div class="tech-content">
+                          <img class="image-fluid" src="image.jpg" width="80px">
+                          <div class="image-heading">
+                              <h5>Technology</h5>
+                              <span class="subHeading">Set 3</span>
+                          </div>
+                      </div>
+                      <div class="tech-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid...
+                      </div>
+                      <a class="tech-link" href="#">Read More <i class="fa-solid fa-arrow-right hpe-arrow"></i></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="tech-support-box">
+                      <div class="tech-content">
+                          <img class="image-fluid" src="image.jpg" width="80px">
+                          <div class="image-heading">
+                              <h5>Technology</h5>
+                              <span class="subHeading">Set 4</span>
+                          </div>
+                      </div>
+                      <div class="tech-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid...
+                      </div>
+                      <a class="tech-link" href="#">Read More <i class="fa-solid fa-arrow-right hpe-arrow"></i></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="tech-support-box">
+                      <div class="tech-content">
+                          <img class="image-fluid" src="image.jpg" width="80px">
+                          <div class="image-heading">
+                              <h5>Technology</h5>
+                              <span class="subHeading">Set 5</span>
+                          </div>
+                      </div>
+                      <div class="tech-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid...
+                      </div>
+                      <a class="tech-link" href="#">Read More <i class="fa-solid fa-arrow-right hpe-arrow"></i></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="tech-support-box">
+                      <div class="tech-content">
+                          <img class="image-fluid" src="image.jpg" width="80px">
+                          <div class="image-heading">
+                              <h5>Technology</h5>
+                              <span class="subHeading">Set 6</span>
+                          </div>
+                      </div>
+                      <div class="tech-description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid...
+                      </div>
+                      <a class="tech-link" href="#">Read More <i class="fa-solid fa-arrow-right hpe-arrow"></i></a>
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-4">
+            <div class="chatbot">
+                <button class="open-button" onclick="openForm()"><i class="fa-regular fa-message"></i></button>
+                <div class="chat-popup" id="myForm">
+                  <form action="/action_page.php" class="form-container">
+                    <h2>Chat</h2>
+
+                    <label for="msg"><b>Type your message</b></label>
+                    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+                    <button type="submit" class="btn">Send </button>
+                    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                  </form>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid mt-4">
+          <div class="row">
+            <div class="col-md-12 mt-4 mb-4">
+            <footer class="mt-5 pt-4 text-dark text-center">
+              <p>@Copyright 2022 Company name | All rights reserved</p>
+            </footer>
+              </div>
+            </div>
+        </div>
+</body>
+    <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</html>
